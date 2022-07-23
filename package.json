@@ -10,8 +10,7 @@
     "start": "node index.js",
     "build": "react-scripts build",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
