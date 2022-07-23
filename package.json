@@ -10,9 +10,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
     "heroku-postbuild": "npm run build"
-    
   },
   "keywords": [],
   "author": "",
@@ -23,7 +21,8 @@
     "express": "^4.18.1",
     "express-router": "^0.0.1",
     "pg": "^8.7.3",
-    "pool": "^0.4.1"
+    "pool": "^0.4.1",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
